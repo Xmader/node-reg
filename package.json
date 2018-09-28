@@ -1,0 +1,25 @@
+{
+  "name": "node-reg",
+  "version": "0.3.0",
+  "author": {
+    "name": "Xmader"
+  },
+  "bugs": {
+    "url": "https://github.com/Xmader/node-reg/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A simple package for registry interaction from nodejs",
+  "homepage": "https://github.com/Xmader/node-reg#readme",
+  "keywords": [
+    "registry",
+    "regedit",
+    "node-reg"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xmader/node-reg.git"
+  }
+}
