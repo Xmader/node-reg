@@ -7,7 +7,7 @@ exports.addKey = function(entry) {
 	return new Promise(function(resolve, reject) {
 
 		var query = basePath;
-		query += ' add ' + entry.target;
+		query += ' add "' + entry.target + '"';
 		query += ' /v ' + entry.name;
 		query += ' /t ' + entry.type;
 		query += ' /d ' + entry.value;
