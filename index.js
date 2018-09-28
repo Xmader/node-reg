@@ -26,7 +26,7 @@ exports.getKey = function(entry) {
 	return new Promise(function(resolve, reject) {
 
 		var query = basePath;
-		query += ' query ' + entry.target;
+		query += ' query "' + entry.target + '"';
 		if(entry.name) {
 			query += ' /v ' + entry.name;
 		}
